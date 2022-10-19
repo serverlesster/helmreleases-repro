@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
   - flux-system
 patchesStrategicMerge:
-  - ../../../../base/flux-system/gotk-components-v1beta2.yaml
+  - ../../../../base/flux-system/gotk-components.yaml
