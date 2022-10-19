@@ -10,7 +10,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/serverlesster/helmreleases-repro
+  url: https://github.com/serverlesster/helmreleases-repro
 
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
